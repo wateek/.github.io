@@ -13,13 +13,94 @@
         <h2>Computing Survey</h2>
         <form>
         
-        	<label for="name">Name:</label>
-        	<input id="name" size="24"><br>
+        	<label for="firstname">First Name:</label>
+        	<input id="name" size="25" required autofocus>
 			
+            <label for="lastname">Last Name:</label>
+        	<input id="name" size="25" required>
+            <br>
+            
 			<label for="address">Address:</label>
-			<input id="address" size="30"><br>
-			<br>
-		
+			<input id="address" size="25" required>
+            
+            <label for="city">City:</label>
+            <input id="city" size="25" required>
+            <br>
+            
+            <label for="state">State:</label>
+            <!-- Drop-down menu for selecting home states (listed alphabetically) -->
+            <select>
+                <option value="default" checked></option>
+                <option value="freshman">Alabama</option>
+                <option value="sophomore">Sophomore</option>
+                <option value="junior">Junior</option>
+                <option value="senior">Senior</option>
+            </select>
+            
+            <label for="zip">Zip Code:</label>
+            <input id="zip" size="10" required>
+            <br>
+            
+            <label for="email">Email:</label>
+            <input id="email" size="25" required>
+            
+            <label for="gender">Gender:</label>
+                        
+            <input type="radio" name="gender" id="male" checked>
+            <label>Male</label>
+            <input type="radio" name="gender" id="female">
+            <label>Female</label>
+            
+            <br>
+            <label for="high_school">High School:</label>
+            <input id="high_school" size="25" required>
+            
+            <label for="grad_year">Year of Graduation:</label>
+            <input id="grad_year" size="10" required>
+            <br>
+            
+            <label for="current_math_class">What math class are you currently enrolled in?</label>
+            <input id="current_math_class" size="25" required>
+            <br>
+            
+            <label for="favorite_subject">What is your favorite academic subject?</label>
+            <input id="favorite_subject" size="25" required>
+            <br>
+            
+            <label for="current_year">Current Year:</label>
+            <select>
+                <option value="default" checked></option>
+                <option value="senior">Senior</option>
+                <option value="junior">Junior</option>
+                <option value="sophomore">Sophomore</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            
+            <label for="colleges">If you are a senior planning on college for next year, what school(s) will you probably attend?</label>
+            <input id="colleges" size="25" required>
+            <br>
+            
+            <label for="intended_major">What is your intended major?</label>
+            <select>
+                <option value="default" selected></option> 
+                <option value="undecided">Undecided</option>
+                <option value="comp_sci">Computer Science</option>
+                <option value="math">Mathematics</option>
+                <option value="physical_sci">Physical Science (ex: physics/engineering/technology/chemistry)</option>
+                <option value="life_sci">Life Science (ex: biology/ pre-med)</option>
+                <option value="business">Business (ex: accounting/ marketing/management/finance)</option>
+                <option value="humanities">Humanities (ex: history/English/foreign language)</option>
+                <option value="social_sci">Social Science (ex: econimics/sociology/political science/psychology)</option>
+                <option value="creative_arts">Performing or Creative Arts</option>
+                <!-- NOTE: The "Other, please specify" thing below can work if we use JavaScript, not sure if it's possible without it though. -->
+                <option value="other">Other, please specify</option>
+            </select>
+            <br>
+            
+            
+            
+		<br>
 		<input type="button" value="Go" id="go">			
 		</form>
         <script src="click.js"></script>
