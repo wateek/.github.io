@@ -1,5 +1,5 @@
 function clickHandler() {
-	var field = document.getElementById("name");
+	var field = document.getElementById("firstname");
 	if (field.value == "") {
         var newNode = document.createElement("span");
         newNode.innerHTML = "Please enter name.";
@@ -10,7 +10,7 @@ function clickHandler() {
         label.style.color = "red";
 	}
 	else {
-		var label = document.querySelectorAll('[for="name"]')[0];
+		var label = document.querySelectorAll('[for="firstname"]')[0];
 		label.style.color = "black";
 		var message = document.getElementById("name_error");
 		message.parentNode.removeChild(message);		
