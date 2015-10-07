@@ -1,0 +1,60 @@
+/* Overall Website */
+.Pageheader, header {
+    text-align: center;
+}
+
+body {
+    /* Just using this as a starting point, feel free to change it */
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 75px black;
+}
+
+section {
+    background-color: #dbf0df;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 20px;
+    text-align: justify;
+}
+
+/* Past Problem specific code (uses class="pastproblem") */
+
+header.pastproblem {
+    text-align: center;
+    color: red;
+}
+
+div.pastproblem {
+    text-align: left;
+    margin-left: 50px;
+}
+
+div.pastproblem td {
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+/* Survey-specific code (uses class="survey") */
+
+div.survey label {
+    margin-right: 2px;
+    margin-bottom: 15px;
+}
+
+div.survey select {
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+div.survey input {
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+

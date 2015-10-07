@@ -4,17 +4,22 @@
         <meta charset="utf-8">
 		<title>Contest Registration</title>
         <script src="submission.js"></script> 
+        <link rel="stylesheet" type="text/css" href="sienastyle.css"> 
+
     </head>
     <body>
-        <h2>Siena College Computer Science Department’s</h2>
-		<h1>29th Annual High School Programming Contest</h1>
-        <h3>April 1, 2016</h3>
-        <hr>
-        <h2>Student Eligibility Form</h2>
-        <form>
-            
+        <header>
+            <h2>Siena College Computer Science Department’s</h2>
+            <h1>29th Annual High School Programming Contest</h1>
+            <h3>April 1, 2016</h3>
+            <hr>
+            <h2>Student Eligibility Form</h2>
+        </header>
+        
+        <form>    
+            <div class="survey">
             <label for="team">Team Name:</label>
-            <input id="team" size="25" required autofocus>
+            <input id="team" size="35" required autofocus>
             <br>
             <label for="team">(For the team name use the name of your high school followed by a letter. We will assume that A is used for your first team, B for the second, …)</label>
             <br>
@@ -50,7 +55,14 @@
             </ol>
             
             <p>Advisor Certification:</p>
-            <!-- Put in advisor's name & phone # -->
+            <label for="advisorName">Advisor's Name:</label>
+            <input id="advisorName" size="25">
+            <br>
+            <label for="advisorPhone">Advisor's Phone #:</label>
+            <input id="advisorPhone" size="25">
+            <br>
+            </div>
+            <button id="submit">Submit</button>
         </form>
     </body>
 </html>

@@ -4,15 +4,19 @@
         <meta charset="utf-8">
 		<title> Siena College Computing Survey</title>
         <script src="submission.js"></script> 
+        	  <link rel="stylesheet" type="text/css" href="sienastyle.css"> 
+
     </head>
     <body>
-        <h2>Siena College Computer Science Department’s</h2>
-		<h1>29th Annual High School Programming Contest</h1>
-        <h3>April 1, 2016</h3>
+        <header>
+            <h2>Siena College Computer Science Department’s</h2>
+		  <h1>29th Annual High School Programming Contest</h1>
+            <h3>April 1, 2016</h3>
+        </header>
         <hr>
         <h2>Computing Survey</h2>
         <form>
-        
+            <div class="survey">
         	<label for="firstname">First Name:</label>
         	<input id="firstname" size="25" required autofocus>
 			
@@ -145,12 +149,12 @@ Might have to include Puerto Rico as well, but I'm not sure.-->
                 <option value="humanities">Humanities (ex: history/English/foreign language)</option>
                 <option value="social_sci">Social Science (ex: econimics/sociology/political science/psychology)</option>
                 <option value="creative_arts">Performing or Creative Arts</option>
-                <!-- NOTE: The "Other, please specify" thing below can work if we use JavaScript, not sure if it's possible without it though. -->
                 <option value="other">Other</option>
             </select>
-		<br>
-		<input type="button" value="Go" id="go">			
-		</form>
+                <br>
+                <input type="button" value="Go" id="go">	
+            </div>
+        </form>
         <script src="click.js"></script>
     </body>
 </html>
