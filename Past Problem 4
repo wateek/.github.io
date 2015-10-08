@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+		<title>Problem #4 - 2014</title>
+        <link rel="stylesheet" type="text/css" href="sienastyle.css"> 
+    </head>
+    <body class="pastproblem4">
+        <header class="pastproblem4">
+            <h1>SIENA COLLEGE</h1>
+            <h1>27th Annual High School Programming Contest</h1>
+            <h3>April 4, 2014</h3>
+        </header>
+        <h3><b><u style="border-bottom: 1px solid black">Problem #4: BASIC TRIANGLES</u></b></h3>
+        
+        <p><u>Background Information:</u></p>
+        <p> A basic triangle is a triangle with all three sides having integer lengths.  Counting the number of basic triangles for a given perimeter P, could be a nice application of the triangle inequality theorem which states that any side of a triangle is always shorter than the sum of the other two sides. There are no basic triangles with a perimeter of 1, 2, or 4. There is one basic triangle with a perimeter of 3, the equilateral triangle with side lengths of 1. </p>
+        <img src="foxtrot.png" height="424">
+        <br><br>
+        <p>Programming Problem:</p>
+        <div class="pastproblem3">
+            <p>Input: Integers M and N (one input value per line) where M and N are positive integers < 10000.<br>
+                Output: The perimeter P which is a perimeter for each value from M to N (inclusive) and the number of basic triangles for each perimeter P. </p>
+            
+            <table>
+                <tr>
+                    <td>Example 1:</td>
+                    <td>Input:</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>16</td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td>Output: </td>
+                    <td>10 2</td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td>11 4</td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td>12 3</td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td>13 5</td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td>14 4</td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td>15 7</td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td>16 5</td>
+                </tr>
+            </table>
+            
+            <br>
+            
+        </div>
+    </body>
+</html>
