@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+		<title>Problem #2 - 2014</title>
+        <link rel="stylesheet" type="text/css" href="sienastyle.css"> 
+    </head>
+    <body class="pastproblem2">
+        <header class="pastproblem2">
+            <h1>SIENA COLLEGE</h1>
+            <h1>27th Annual High School Programming Contest</h1>
+            <h3>April 4, 2014</h3>
+        </header>
+        <h3><b><u style="border-bottom: 1px solid black">Problem #2: TIME IS?</u></b></h3>
+        
+        <p><u>Background Information:</u></p>
+        <p> If you were asked to "simplify" 200 seconds you would not say, "3.3333333 minutes. You would say 3 minutes and 20 seconds"</p>
+		<p> If you were asked to “simplify” 1000000 (one million seconds) you would say, “11 days, 13 hours, 46 minutes, and 40 seconds”.</p>
+        <p> And if you were asked to “simplify” 1000000000 (one billion seconds) you would say, “31 years, 259 days, 1 hour, 46 minutes, and 40 seconds”. Once we are asked to simplify a number of seconds greater than 31536000 we will assume that a year is exactly 365 days long.</p>
+        <img src="Dilbert.png" height="287">
+        <br><br>
+        <p>Programming Problem:</p>
+        <div class="pastproblem2">
+            <p>Input: a positive integer N less than 2000000000 representing the number of seconds. <br>
+                Output: N seconds "simplified into years, days, hours minutes, and seconds. You must only output the units starting with the greatest unit that has a value greater than 0."</p>
+            
+            <table>
+                <tr>
+                    <td>Example 1:</td>
+                    <td>Input:</td>
+                    <td>3640</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Output:</td>
+                    <td>1 hours</td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td>0 minutes</td>
+                </tr>
+				<tr>
+                    <td></td>
+                    <td></td>
+                    <td>40 seconds</td>
+                </tr>
+            </table>
+            
+            <br>
+            
+            <table>
+                <tr>
+                    <td>Example 2:</td>
+                    <td>Input:</td>
+                    <td>1000000000</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Output:</td>
+                    <td>31 years</td>
+				</tr>
+				<tr>
+				    <td></td>
+					<td></td>
+					<td>259 days</td>
+				</tr>
+                <tr>
+                    <td></td>
+					<td></td>
+					<td>1 hours</td>
+				</tr>
+				<tr>
+				    <td></td>
+					<td></td>
+					<td>46 minutes</td>
+				</tr>
+                <tr>
+                    <td></td>
+                    <td></td>					
+					<td>40 seconds</td>
+                </tr>
+            </table>
+            
+        </div>
+    </body>
+</html>
