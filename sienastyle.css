@@ -19,8 +19,41 @@ section {
     padding-right: 15px;
     padding-top: 1px;
     padding-bottom: 1px;
-    border-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     text-align: justify;
+}
+
+.navigation {
+	padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align:center;
+    background-color: forestgreen;
+}
+
+.navigation a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 3px solid forestgreen;
+    border-radius: 0px;
+    background-color: gold;
+    color: black;
+}
+
+a {
+    padding: 6px;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: palegreen;
 }
 
 /* Past Problem specific code (uses class="pastproblem") */
