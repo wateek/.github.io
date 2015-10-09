@@ -1,6 +1,28 @@
 /* Overall Website */
-.Pageheader, header {
+ header {
     text-align: center;
+}
+
+header.main {
+    background-color: #FFCE34;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top: 1px solid #FFCE34;
+}
+
+h1 {
+    text-align: center;
+}
+
+.homebutton {
+    width: auto;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    
+}
+
+ul {
+list-style: none;
 }
 
 body {
@@ -13,8 +35,11 @@ body {
     box-shadow: 10px 10px 75px black;
 }
 
+article{
+border-bottom: 1px solid black;}
+
 section {
-    background-color: #dbf0df;
+    background-color: #FFCE34;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 1px;
@@ -24,36 +49,25 @@ section {
     text-align: justify;
 }
 
-.navigation {
-	padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 2px;
-    padding-right: 2px;
-    text-align:center;
-    background-color: forestgreen;
-}
-
-.navigation a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 32px;
-    padding-right: 32px;
-    border: 3px solid forestgreen;
-    border-radius: 0px;
-    background-color: gold;
-    color: black;
-}
-
 a {
-    padding: 6px;
-    border: 1px black solid;
-    border-radius: 10px;
-    background-color: whitesmoke;
-    text-decoration: none;
+display:inline-block;
+width:119px;
+border: 1px solid lightgray;
+margin-bottom: 10px;
+margin-top: 10px;
+margin-left:0px;
+margin-right:0px;
+padding:15px;
+text-align:center;
+background-color:#FFCE34;
+color: #000000;
+border-radius:10px;
+text-decoration:none;
 }
 
 a:hover {
-    background-color: palegreen;
+    color: white;
+  background-color: #006545;
 }
 
 /* Past Problem specific code (uses class="pastproblem") */
@@ -73,6 +87,11 @@ div.pastproblem td {
     padding-bottom: 10px;
 }
 
+div.pastproblem a {
+    width: 80px;
+    padding: 10px;
+}
+
 /* Survey-specific code (uses class="survey") */
 
 div.survey label {
@@ -90,4 +109,65 @@ div.survey input {
     margin-right: 10px;
 }
 
+/*  Homepage CSS   */
+h4{
+text-align: center;
+}
+
+nav {
+    background-color: #006545;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom:1px solid black;
+    background-color:#006545;
+
+}
+
+	section.topSection{
+    background-color: #FFCE34;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+	border-bottom: 1px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: justify;
+	}
+	
+footer {
+    float:left;
+    padding: 30px 0;
+    width: 800px;
+    text-align: center;
+}
+
+/* Past winner CSS*/
+nav.contestnav ul {
+    display:inline;
+}
+
+
+.contestnav {
+    width: auto;
+    border-top: 1px solid #006545;
+    text-align: center;
+    border-radius:10px;
+}
+
+.contestnav a {
+display:inline-block;
+width:50px;
+border: 1px solid lightgray;
+margin-bottom: 5px;
+margin-top: 5px;
+margin-left:0px;
+margin-right:0px;
+padding:10px;
+background-color:#FFCE34;
+color: #000000;
+border-radius:10px;
+text-decoration:none;
+}
+/* Gallery CSS */
 

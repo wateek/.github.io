@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+		<title>Problem #5 - 2014</title>
+        <link rel="stylesheet" type="text/css" href="sienastyle.css"> 
+    </head>
+    <body class="pastproblem">
+        <header class="pastproblem">
+            <h1>SIENA COLLEGE</h1>
+            <h1>27th Annual High School Programming Contest</h1>
+            <h3>April 4, 2014</h3>
+        </header>
+        <h3><b><u style="border-bottom: 1px solid black">Problem #1: COIN CHANGE</u></b></h3>
+        
+        <p><u>Background Information:</u></p>
+        <p> The Acme Software Company wants to develop a program that will determine the minimum number of coins needed for any value between 0 and 99 cents.
+		They want the program to be general enough to allow for the input of up to 10 types of coins. For example, in the U.S., we usually consider coins 
+		of 1, 5, 10, 25 and 50 cents. The minimum number of coins needed for 71 cents is 4: a 50, 10, 10, and 1. In Bionia, there are 1, 2, 4, 8, 16, 32, and 64 cent coins.
+		The minimum number of coins needed for 71 cents is 4: a 64, 4, 2, and 1. </p>
+       
+        <img src="imgs/benfrank.jpg" height="350">
+        <br><br>
+        <p><u>Programming Problem:</u></p>
+        <div class="pastproblem">
+            <p>Input: A positive integer N between 1 and 10 for the number of coins used in a country followed
+			by the values of the coins C1, C2, C3, … CN, from largest to smallest, followed by an integer A between 1 and 99 (inclusive)
+			the amount of change to be made. There will be one integer per input line. Also, CN will always be equal to 1 so there will always be a solution.  </p><br>
+                <p> The amount of change to be made followed by an equal sign, followed by the coin values in descending order, separated by plus signs on 
+				the first line followed on the next line by the number of coins required. </p>
+            
+            <table>
+                <tr>
+                    <td>Example 1:</td>
+                   
+				</tr>
+				<tr>
+					 <td>Input:</td>
+                     <td>5</td>
+				</tr>
+				 
+				<tr>
+					 <td>50</td>
+				</tr>
+				<tr>
+					<td>25</td>
+				</tr>
+				<tr>
+					<td>10</td>
+			    </tr>
+				<tr>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>71</td>
+				</tr>
+        
+            </table>
+             Output: 71 = 50 + 10 + 10 +1 <br>
+			 4 coins required
+            <br>
+            
+            <table>
+                <tr>
+                    <td>Example 2:</td>
+                <tr>    
+					<td>Input:</td>
+				</tr>
+				<tr>	
+					<td>3</td>
+				</tr>
+				<tr>	
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>4</td>
+				</tr>	
+				<tr>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>8</td>
+                </tr>
+                
+            </table>
+            Output 8=4+4 <br>
+			2 coins required
+        </div>
+    </body>
+</html>
