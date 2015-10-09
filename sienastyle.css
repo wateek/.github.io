@@ -18,6 +18,9 @@ h1 {
     width: auto;
     background-color: rgba(255, 255, 255, 0);
     border: none;
+    color: black;
+    text-shadow: 1px 1px 2px gray;
+        
     
 }
 
@@ -25,8 +28,17 @@ ul {
 list-style: none;
 }
 
+
+
 body {
-    /* Just using this as a starting point, feel free to change it */
+    background-image: url(imgs/siena2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+div.content {
     width: 800px;
     margin: auto;
     padding: 20px;
@@ -58,7 +70,7 @@ padding:14px;
 text-align:center;
 background-color:#FFCE34;
 color: #000000;
-border-radius:10px;
+border-radius: 10px;
 text-decoration:none;
     text-shadow: 1px 1px 5px lightgray;
 }
@@ -137,9 +149,6 @@ nav {
 	}
 	
 footer {
-    float:left;
-    padding: 30px 0;
-    width: 800px;
     text-align: center;
 }
 
